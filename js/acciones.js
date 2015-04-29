@@ -6,7 +6,7 @@ document.addEventListener("deviceready",function(){
 	navigator.vibrate (1000);
 	
 	$ ('#btnbeep').on ('tap', function(){
-		navigator.beep(1);	
+		navigator.notification.beep(1)	
 		
 		$('#izquierda').on ('swipeleft', function (){
 			alert ("barrio a la izquierda");
